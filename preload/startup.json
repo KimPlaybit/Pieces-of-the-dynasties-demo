@@ -93,8 +93,7 @@
  },
  {
   "url": "Content/images/button.xnb",
-  "size": 529321,
-  "reads": 2
+  "size": 529321
  },
  {
   "url": "Content/fonts/Cinzel-Regular.xnb",
@@ -107,6 +106,10 @@
  {
   "url": "Content/fonts/Cinzel-Tiny.xnb",
   "size": 21905
+ },
+ {
+  "url": "Content/fonts/Cinzel-Bold.xnb",
+  "size": 71057
  },
  {
   "url": "Content/images/nail.xnb",
@@ -234,8 +237,7 @@
  },
  {
   "url": "Content/images/king.xnb",
-  "size": 104189,
-  "reads": 2
+  "size": 104189
  },
  {
   "url": "Content/images/loadgame/Savepanel-notext.xnb",
@@ -296,9 +298,5 @@
  {
   "url": "Content/soundeffects/button-click/button-click-4.xnb",
   "size": 83093
- },
- {
-  "url": "Content/fonts/Cinzel-Bold.xnb",
-  "size": 71057
  }
 ]

@@ -176,28 +176,23 @@
  },
  {
   "url": "Content/images/pawn.xnb",
-  "size": 57861,
-  "reads": 2
+  "size": 57861
  },
  {
   "url": "Content/images/knight.xnb",
-  "size": 99585,
-  "reads": 2
+  "size": 99585
  },
  {
   "url": "Content/images/bishop.xnb",
-  "size": 54965,
-  "reads": 2
+  "size": 54965
  },
  {
   "url": "Content/images/rook.xnb",
-  "size": 85925,
-  "reads": 2
+  "size": 85925
  },
  {
   "url": "Content/images/queen.xnb",
-  "size": 54205,
-  "reads": 2
+  "size": 54205
  },
  {
   "url": "Content/images/soldier-body.xnb",
@@ -208,19 +203,19 @@
   "size": 40921
  },
  {
-  "url": "Content/images/Horse-body.xnb",
+  "url": "Content/images/horse-body.xnb",
   "size": 67733
  },
  {
-  "url": "Content/images/Horse-line.xnb",
+  "url": "Content/images/horse-line.xnb",
   "size": 67733
  },
  {
-  "url": "Content/images/Chariot-body.xnb",
+  "url": "Content/images/chariot-body.xnb",
   "size": 71653
  },
  {
-  "url": "Content/images/Chariot-line.xnb",
+  "url": "Content/images/chariot-line.xnb",
   "size": 71653
  },
  {
@@ -453,13 +448,11 @@
  },
  {
   "url": "Content/images/button-greyed.xnb",
-  "size": 529321,
-  "reads": 2
+  "size": 529321
  },
  {
   "url": "Content/images/button-owner.xnb",
-  "size": 529321,
-  "reads": 2
+  "size": 529321
  },
  {
   "url": "Content/images/city/city-background.xnb",
@@ -751,13 +744,11 @@
  },
  {
   "url": "Content/images/soldier.xnb",
-  "size": 40921,
-  "reads": 2
+  "size": 40921
  },
  {
   "url": "Content/images/horse.xnb",
-  "size": 67733,
-  "reads": 2
+  "size": 67733
  },
  {
   "url": "Content/images/advisor.xnb",
@@ -773,8 +764,7 @@
  },
  {
   "url": "Content/images/cannon.xnb",
-  "size": 62581,
-  "reads": 2
+  "size": 62581
  },
  {
   "url": "Content/images/general.xnb",
@@ -814,23 +804,19 @@
  },
  {
   "url": "Content/images/gold-resource.xnb",
-  "size": 61093,
-  "reads": 2
+  "size": 61093
  },
  {
   "url": "Content/images/food-resource.xnb",
-  "size": 61093,
-  "reads": 2
+  "size": 61093
  },
  {
   "url": "Content/images/wood-resource.xnb",
-  "size": 61093,
-  "reads": 2
+  "size": 61093
  },
  {
   "url": "Content/images/stone-resource.xnb",
-  "size": 61093,
-  "reads": 2
+  "size": 61093
  },
  {
   "url": "Content/images/Chess-base.xnb",
