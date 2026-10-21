@@ -1,0 +1,19 @@
+html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+#app { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; }
+/* The drawing buffer is the game's back buffer; CSS letterboxes it into the viewport. */
+#canvas { max-width: 100vw; max-height: 100vh; outline: none; display: block; }
+
+#loading {
+    position: fixed; inset: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(ellipse at center, #1b1712 0%, #070605 70%);
+    transition: opacity 0.5s ease;
+}
+#loading.done { opacity: 0; pointer-events: none; }
+.loading-panel { width: min(520px, calc(100vw - 32px)); text-align: center; font-family: Georgia, "Times New Roman", serif; }
+.loading-title { color: #e2c27a; font-size: clamp(22px, 5vw, 34px); letter-spacing: 0.08em; text-transform: uppercase; }
+.loading-subtitle { color: #9b8558; font-size: 14px; letter-spacing: 0.4em; text-transform: uppercase; margin: 6px 0 28px; }
+.loading-bar { height: 10px; border: 1px solid #7a6334; border-radius: 6px; background: #120f0b; overflow: hidden; }
+.loading-fill { height: 100%; width: 0%; background: linear-gradient(90deg, #8a6a2c, #e2c27a); transition: width 0.25s ease; }
+.loading-stage { color: #d8c79f; font-size: 16px; margin-top: 16px; }
+.loading-detail { color: #8d7d5c; font-size: 13px; margin-top: 6px; min-height: 1.2em; font-variant-numeric: tabular-nums; }

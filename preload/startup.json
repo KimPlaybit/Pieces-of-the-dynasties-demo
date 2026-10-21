@@ -1,0 +1,304 @@
+[
+ {
+  "url": "Content/images/pawn-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/knight-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/bishop-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/rook-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/queen-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/king-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/cannon-line.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/minister-line.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/city-background-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/wind-mill-spin-sheet-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/tavern-sign-animation-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/Horse-animation-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/hay-htrown-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/soldiers-practice-animation-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/city/soldier-guard-owner.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/Cursor/normal.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/event-cursor.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/Battle.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/transfer.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/town.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/waiting-for-next-turn.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/blocked.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/menubackground.xnb",
+  "size": 6291541
+ },
+ {
+  "url": "Content/images/button.xnb",
+  "size": 529321,
+  "reads": 2
+ },
+ {
+  "url": "Content/fonts/Cinzel-Regular.xnb",
+  "size": 71057
+ },
+ {
+  "url": "Content/fonts/Cinzel-Small.xnb",
+  "size": 21905
+ },
+ {
+  "url": "Content/fonts/Cinzel-Tiny.xnb",
+  "size": 21905
+ },
+ {
+  "url": "Content/images/nail.xnb",
+  "size": 3737
+ },
+ {
+  "url": "Content/images/menu/emblem.xnb",
+  "size": 531733
+ },
+ {
+  "url": "Content/images/menu/top-decale.xnb",
+  "size": 181025
+ },
+ {
+  "url": "Content/images/menu/bottom-decale.xnb",
+  "size": 225805
+ },
+ {
+  "url": "Content/images/settings/panel.xnb",
+  "size": 1578109
+ },
+ {
+  "url": "Content/images/settings/emblem.xnb",
+  "size": 130181
+ },
+ {
+  "url": "Content/images/gamelobby/emblem.xnb",
+  "size": 1172893
+ },
+ {
+  "url": "Content/images/gamelobby/map Icon.xnb",
+  "size": 6013
+ },
+ {
+  "url": "Content/images/gamelobby/Map-sizeIcon.xnb",
+  "size": 5269
+ },
+ {
+  "url": "Content/images/gamelobby/easy-notext.xnb",
+  "size": 74005
+ },
+ {
+  "url": "Content/images/gamelobby/selected-easy-notext.xnb",
+  "size": 79789
+ },
+ {
+  "url": "Content/images/gamelobby/medium-notext.xnb",
+  "size": 74005
+ },
+ {
+  "url": "Content/images/gamelobby/selected-medium-notext.xnb",
+  "size": 76245
+ },
+ {
+  "url": "Content/images/gamelobby/hard-notext.xnb",
+  "size": 76453
+ },
+ {
+  "url": "Content/images/gamelobby/selected-hard-notext.xnb",
+  "size": 78229
+ },
+ {
+  "url": "Content/images/gamelobby/elite-notext.xnb",
+  "size": 81685
+ },
+ {
+  "url": "Content/images/gamelobby/selected-elite-notext.xnb",
+  "size": 204133
+ },
+ {
+  "url": "Content/images/gamelobby/100.xnb",
+  "size": 46333
+ },
+ {
+  "url": "Content/images/gamelobby/600.xnb",
+  "size": 28145
+ },
+ {
+  "url": "Content/images/gamelobby/1000.xnb",
+  "size": 38101
+ },
+ {
+  "url": "Content/images/gamelobby/background.xnb",
+  "size": 296437
+ },
+ {
+  "url": "Content/images/gamelobby/numberbackgorund.xnb",
+  "size": 15165
+ },
+ {
+  "url": "Content/images/gamelobby/numberbackgorund-no1.xnb",
+  "size": 15165
+ },
+ {
+  "url": "Content/images/gamelobby/human-label-notext.xnb",
+  "size": 24837
+ },
+ {
+  "url": "Content/images/gamelobby/ai-label-notext.xnb",
+  "size": 18901
+ },
+ {
+  "url": "Content/images/gamelobby/FactionButton.xnb",
+  "size": 38249
+ },
+ {
+  "url": "Content/images/gamelobby/addaiplayer-notext.xnb",
+  "size": 75713
+ },
+ {
+  "url": "Content/images/gamelobby/addhumanplayer-notext.xnb",
+  "size": 76525
+ },
+ {
+  "url": "Content/images/gamelobby/startgame-notext.xnb",
+  "size": 248585
+ },
+ {
+  "url": "Content/images/gamelobby/players-panel-bg.xnb",
+  "size": 1446421
+ },
+ {
+  "url": "Content/images/gamelobby/settings-background.xnb",
+  "size": 503925
+ },
+ {
+  "url": "Content/images/king.xnb",
+  "size": 104189,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/loadgame/Savepanel-notext.xnb",
+  "size": 1896645
+ },
+ {
+  "url": "Content/images/loadgame/emblem.xnb",
+  "size": 131685
+ },
+ {
+  "url": "Content/images/loadgame/row-load-button.xnb",
+  "size": 6325
+ },
+ {
+  "url": "Content/images/loadgame/panel-notext.xnb",
+  "size": 1624029
+ },
+ {
+  "url": "Content/music/menu-music.xnb",
+  "size": 128
+ },
+ {
+  "url": "Content/music/world-music.xnb",
+  "size": 129
+ },
+ {
+  "url": "Content/music/world-music2.xnb",
+  "size": 130
+ },
+ {
+  "url": "Content/music/world-music4.xnb",
+  "size": 130
+ },
+ {
+  "url": "Content/music/chess-theme.xnb",
+  "size": 129
+ },
+ {
+  "url": "Content/music/battle-theme.xnb",
+  "size": 130
+ },
+ {
+  "url": "Content/ambience/menu-ambience.xnb",
+  "size": 8206953
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-1.xnb",
+  "size": 28869
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-2.xnb",
+  "size": 45513
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-3.xnb",
+  "size": 88725
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-4.xnb",
+  "size": 83093
+ },
+ {
+  "url": "Content/fonts/Cinzel-Bold.xnb",
+  "size": 71057
+ }
+]

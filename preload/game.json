@@ -1,0 +1,1131 @@
+[
+ {
+  "url": "Content/ambience/chess-ambience.xnb",
+  "size": 2234985
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/night-time.xnb",
+  "size": 18441321
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-1.xnb",
+  "size": 13545
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-2.xnb",
+  "size": 13877
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-3.xnb",
+  "size": 16721
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-4.xnb",
+  "size": 29229
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-5.xnb",
+  "size": 20509
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/opening-door.xnb",
+  "size": 339945
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/tavern.xnb",
+  "size": 3603561
+ },
+ {
+  "url": "Content/soundeffects/battle/battle-start.xnb",
+  "size": 815721
+ },
+ {
+  "url": "Content/soundeffects/battle/victory.xnb",
+  "size": 2834025
+ },
+ {
+  "url": "Content/soundeffects/battle/defeat.xnb",
+  "size": 7956177
+ },
+ {
+  "url": "Content/soundeffects/battle/draw.xnb",
+  "size": 1232301
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/sawmill.xnb",
+  "size": 252487,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/quarry.xnb",
+  "size": 351559,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/goldmine.xnb",
+  "size": 351559,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/farm.xnb",
+  "size": 253733,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/level-up.xnb",
+  "size": 345705
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/new-turn.xnb",
+  "size": 232997
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/food-pickup.xnb",
+  "size": 98119
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/wood-pickup.xnb",
+  "size": 103973
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/stone-pickup.xnb",
+  "size": 177701
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/gold-pickup.xnb",
+  "size": 193641
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/artifact-pickup.xnb",
+  "size": 304233
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/abandoned-wagon.xnb",
+  "size": 253545
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/skill-recieved-oldman.xnb",
+  "size": 580713
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/Challenge-pop-up.xnb",
+  "size": 355293
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/challenge-failed.xnb",
+  "size": 511593
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/finished-challenge.xnb",
+  "size": 537125
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/market.xnb",
+  "size": 729705,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/inn.xnb",
+  "size": 624105,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/historian.xnb",
+  "size": 410217
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/reveal-treasure.xnb",
+  "size": 486437
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/blacksmith-sound.xnb",
+  "size": 194887,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/blacksmith-upgrade.xnb",
+  "size": 87657
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/hoarder.xnb",
+  "size": 285989,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/town/create-building.xnb",
+  "size": 445929
+ },
+ {
+  "url": "Content/soundeffects/town/recruiting-hero.xnb",
+  "size": 685545
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/recruitment-camps/pawn-recruitmentcamp.xnb",
+  "size": 205349,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/recruitment-camps/knight-recruitmentcamp.xnb",
+  "size": 320549,
+  "reads": 2
+ },
+ {
+  "url": "Content/soundeffects/overworld-objects/recruitment-camps/bishop-recruitmentcamp.xnb",
+  "size": 400425,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/pawn.xnb",
+  "size": 57861,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/knight.xnb",
+  "size": 99585,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/bishop.xnb",
+  "size": 54965,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/rook.xnb",
+  "size": 85925,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/queen.xnb",
+  "size": 54205,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/soldier-body.xnb",
+  "size": 40921
+ },
+ {
+  "url": "Content/images/soldier-line.xnb",
+  "size": 40921
+ },
+ {
+  "url": "Content/images/Horse-body.xnb",
+  "size": 67733
+ },
+ {
+  "url": "Content/images/Horse-line.xnb",
+  "size": 67733
+ },
+ {
+  "url": "Content/images/Chariot-body.xnb",
+  "size": 71653
+ },
+ {
+  "url": "Content/images/Chariot-line.xnb",
+  "size": 71653
+ },
+ {
+  "url": "Content/images/cannon-body.xnb",
+  "size": 62581
+ },
+ {
+  "url": "Content/images/advisor-body.xnb",
+  "size": 63085
+ },
+ {
+  "url": "Content/images/advisor-line.xnb",
+  "size": 63085
+ },
+ {
+  "url": "Content/images/minister-body.xnb",
+  "size": 70069
+ },
+ {
+  "url": "Content/images/general-body.xnb",
+  "size": 73013
+ },
+ {
+  "url": "Content/images/general-line.xnb",
+  "size": 73013
+ },
+ {
+  "url": "Content/images/board-square.xnb",
+  "size": 331861
+ },
+ {
+  "url": "Content/images/grass-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/grass-decale1.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-decale2.xnb",
+  "size": 725
+ },
+ {
+  "url": "Content/images/grass-decale3.xnb",
+  "size": 6665
+ },
+ {
+  "url": "Content/images/grass-decale4.xnb",
+  "size": 6665
+ },
+ {
+  "url": "Content/images/grass-decale5.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-decale6.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-decale7.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-decale8.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-stone1.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-stone2.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/grass-stone3.xnb",
+  "size": 5265
+ },
+ {
+  "url": "Content/images/dirt-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/mountain-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/mountain-tile2.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/mountain-tile3.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/mountain-tile4.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/mountain-tile5.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/water-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/deep-water-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/water-side.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/water-corner.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/water-river.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/water-deadend.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/forest-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/tree-1.xnb",
+  "size": 8373
+ },
+ {
+  "url": "Content/images/tree-2.xnb",
+  "size": 4973
+ },
+ {
+  "url": "Content/images/tree-3.xnb",
+  "size": 6161
+ },
+ {
+  "url": "Content/images/tree-4.xnb",
+  "size": 2689
+ },
+ {
+  "url": "Content/images/stone-1.xnb",
+  "size": 1741
+ },
+ {
+  "url": "Content/images/stone-2.xnb",
+  "size": 981
+ },
+ {
+  "url": "Content/images/road-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/road-right-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/road-t-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/river-tile.xnb",
+  "size": 215381
+ },
+ {
+  "url": "Content/images/overworld-camps/bird-animated.xnb",
+  "size": 1621
+ },
+ {
+  "url": "Content/images/water-wave1.xnb",
+  "size": 16137
+ },
+ {
+  "url": "Content/images/water-wave2.xnb",
+  "size": 17637
+ },
+ {
+  "url": "Content/images/water-wave3.xnb",
+  "size": 29565
+ },
+ {
+  "url": "Content/images/water-wave4.xnb",
+  "size": 18125
+ },
+ {
+  "url": "Content/images/water-wave5.xnb",
+  "size": 14709
+ },
+ {
+  "url": "Content/images/water-wave6.xnb",
+  "size": 7861
+ },
+ {
+  "url": "Content/images/grass-battle.xnb",
+  "size": 6290149
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle.xnb",
+  "size": 6292261
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Top.xnb",
+  "size": 3146173
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Bottom.xnb",
+  "size": 3146173
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle.xnb",
+  "size": 6292261
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_Top.xnb",
+  "size": 3146173
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_Bottom.xnb",
+  "size": 3146173
+ },
+ {
+  "url": "Content/images/battle-summary/border.xnb",
+  "size": 2633813
+ },
+ {
+  "url": "Content/images/button-greyed.xnb",
+  "size": 529321,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/button-owner.xnb",
+  "size": 529321,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/city/city-background.xnb",
+  "size": 6291541
+ },
+ {
+  "url": "Content/images/city/villagehall-built.xnb",
+  "size": 186865
+ },
+ {
+  "url": "Content/images/city/villagehall-built-owner.xnb",
+  "size": 186865
+ },
+ {
+  "url": "Content/images/city/townhall-built.xnb",
+  "size": 382189
+ },
+ {
+  "url": "Content/images/city/townhall-built-owner.xnb",
+  "size": 382189
+ },
+ {
+  "url": "Content/images/city/keep-built.xnb",
+  "size": 392373
+ },
+ {
+  "url": "Content/images/city/keep-built-owner.xnb",
+  "size": 392373
+ },
+ {
+  "url": "Content/images/city/castle-built.xnb",
+  "size": 469765
+ },
+ {
+  "url": "Content/images/city/castle-built-owner.xnb",
+  "size": 469765
+ },
+ {
+  "url": "Content/images/city/citadel-built.xnb",
+  "size": 523405
+ },
+ {
+  "url": "Content/images/city/citadel-built-owner.xnb",
+  "size": 523405
+ },
+ {
+  "url": "Content/images/city/fortress-built.xnb",
+  "size": 204429
+ },
+ {
+  "url": "Content/images/city/fortress-built-owner.xnb",
+  "size": 204429
+ },
+ {
+  "url": "Content/images/city/barracks-built.xnb",
+  "size": 200937
+ },
+ {
+  "url": "Content/images/city/barracks-built-owner.xnb",
+  "size": 200937
+ },
+ {
+  "url": "Content/images/city/marketplace-built.xnb",
+  "size": 313845
+ },
+ {
+  "url": "Content/images/city/marketplace-built-owner.xnb",
+  "size": 313845
+ },
+ {
+  "url": "Content/images/city/tavern-built.xnb",
+  "size": 141369
+ },
+ {
+  "url": "Content/images/city/tavern-built-owner.xnb",
+  "size": 141369
+ },
+ {
+  "url": "Content/images/city/royalcourt-built.xnb",
+  "size": 851341
+ },
+ {
+  "url": "Content/images/city/royalcourt-built-owner.xnb",
+  "size": 851341
+ },
+ {
+  "url": "Content/images/city/stable-built.xnb",
+  "size": 209909
+ },
+ {
+  "url": "Content/images/city/stable-built-owner.xnb",
+  "size": 209909
+ },
+ {
+  "url": "Content/images/city/granary-built.xnb",
+  "size": 1632289
+ },
+ {
+  "url": "Content/images/city/granary-built-owner.xnb",
+  "size": 1632289
+ },
+ {
+  "url": "Content/images/city/cathedral-built.xnb",
+  "size": 674745
+ },
+ {
+  "url": "Content/images/city/cathedral-built-owner.xnb",
+  "size": 674745
+ },
+ {
+  "url": "Content/images/city/scouttowers-built.xnb",
+  "size": 193421
+ },
+ {
+  "url": "Content/images/city/scouttowers-built-owner.xnb",
+  "size": 193421
+ },
+ {
+  "url": "Content/images/city/waracademy-built.xnb",
+  "size": 100101
+ },
+ {
+  "url": "Content/images/city/waracademy-built-owner.xnb",
+  "size": 100101
+ },
+ {
+  "url": "Content/images/city/extra-house.xnb",
+  "size": 85309
+ },
+ {
+  "url": "Content/images/city/extra-house-owner.xnb",
+  "size": 85309
+ },
+ {
+  "url": "Content/images/city/extra-house-2.xnb",
+  "size": 80125
+ },
+ {
+  "url": "Content/images/city/extra-house-2-owner.xnb",
+  "size": 80125
+ },
+ {
+  "url": "Content/images/city/extra-house-3.xnb",
+  "size": 63157
+ },
+ {
+  "url": "Content/images/city/extra-house-3-owner.xnb",
+  "size": 63157
+ },
+ {
+  "url": "Content/images/city/extra-house-4.xnb",
+  "size": 53813
+ },
+ {
+  "url": "Content/images/city/extra-house-4-owner.xnb",
+  "size": 53813
+ },
+ {
+  "url": "Content/images/city/bird-animated.xnb",
+  "size": 1621
+ },
+ {
+  "url": "Content/images/city/wind-mill-spin-sheet.xnb",
+  "size": 1355285
+ },
+ {
+  "url": "Content/images/city/citadel-flag.xnb",
+  "size": 6229
+ },
+ {
+  "url": "Content/images/city/citadel-flag-owner.xnb",
+  "size": 6229
+ },
+ {
+  "url": "Content/images/city/flag-animated-2.xnb",
+  "size": 10901
+ },
+ {
+  "url": "Content/images/city/flag-animated-2-owner.xnb",
+  "size": 10901
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-1.xnb",
+  "size": 5845
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-1-owner.xnb",
+  "size": 5845
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-2.xnb",
+  "size": 6069
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-2-owner.xnb",
+  "size": 6069
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-3.xnb",
+  "size": 5237
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-3-owner.xnb",
+  "size": 5237
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-4.xnb",
+  "size": 9589
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-4-owner.xnb",
+  "size": 9589
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-5.xnb",
+  "size": 7429
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-5-owner.xnb",
+  "size": 7429
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-6.xnb",
+  "size": 8789
+ },
+ {
+  "url": "Content/images/city/marketplace-banner-6-owner.xnb",
+  "size": 8789
+ },
+ {
+  "url": "Content/images/city/tavern-sign-animation.xnb",
+  "size": 16069
+ },
+ {
+  "url": "Content/images/city/Horse-animation.xnb",
+  "size": 142225
+ },
+ {
+  "url": "Content/images/city/hay-htrown.xnb",
+  "size": 36265
+ },
+ {
+  "url": "Content/images/city/soldiers-practice-animation.xnb",
+  "size": 37045
+ },
+ {
+  "url": "Content/images/city/soldier-guard.xnb",
+  "size": 15541
+ },
+ {
+  "url": "Content/images/city/hanging-flag-animation.xnb",
+  "size": 27221
+ },
+ {
+  "url": "Content/images/city/hanging-flag-animation-owner.xnb",
+  "size": 27221
+ },
+ {
+  "url": "Content/images/city/granary-grain-move-1.xnb",
+  "size": 380885
+ },
+ {
+  "url": "Content/images/city/granary-grain-move-2.xnb",
+  "size": 32481
+ },
+ {
+  "url": "Content/images/city/granary-grain-move-3.xnb",
+  "size": 219573
+ },
+ {
+  "url": "Content/images/city/granary-grain-move-4.xnb",
+  "size": 249749
+ },
+ {
+  "url": "Content/images/city/wagon-walk.xnb",
+  "size": 57685
+ },
+ {
+  "url": "Content/images/city/city-bridge-wall.xnb",
+  "size": 123637
+ },
+ {
+  "url": "Content/effects/CityFlow.xnb",
+  "size": 11509
+ },
+ {
+  "url": "Content/images/city/city-waterflow.xnb",
+  "size": 3491173
+ },
+ {
+  "url": "Content/images/soldier.xnb",
+  "size": 40921,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/horse.xnb",
+  "size": 67733,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/advisor.xnb",
+  "size": 63085
+ },
+ {
+  "url": "Content/images/minister.xnb",
+  "size": 70069
+ },
+ {
+  "url": "Content/images/chariot.xnb",
+  "size": 71653
+ },
+ {
+  "url": "Content/images/cannon.xnb",
+  "size": 62581,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/general.xnb",
+  "size": 73013
+ },
+ {
+  "url": "Content/images/recruitmentboard/board.xnb",
+  "size": 3193393
+ },
+ {
+  "url": "Content/images/garrison/box.xnb",
+  "size": 72985
+ },
+ {
+  "url": "Content/images/garrison/bar.xnb",
+  "size": 824125
+ },
+ {
+  "url": "Content/images/garrison/garrison-box-border.xnb",
+  "size": 255445
+ },
+ {
+  "url": "Content/images/garrison/garrison-box-filling.xnb",
+  "size": 218533
+ },
+ {
+  "url": "Content/images/garrison/garrison-border-top.xnb",
+  "size": 69461
+ },
+ {
+  "url": "Content/images/heroinspect/borderHero.xnb",
+  "size": 428581
+ },
+ {
+  "url": "Content/images/hero-recruitment/box.xnb",
+  "size": 1021169
+ },
+ {
+  "url": "Content/images/gold-resource.xnb",
+  "size": 61093,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/food-resource.xnb",
+  "size": 61093,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/wood-resource.xnb",
+  "size": 61093,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/stone-resource.xnb",
+  "size": 61093,
+  "reads": 2
+ },
+ {
+  "url": "Content/images/Chess-base.xnb",
+  "size": 2170057
+ },
+ {
+  "url": "Content/images/Chess-base-body.xnb",
+  "size": 2170057
+ },
+ {
+  "url": "Content/images/Chess-base-owner.xnb",
+  "size": 2170057
+ },
+ {
+  "url": "Content/images/camp-banner-body.xnb",
+  "size": 107585
+ },
+ {
+  "url": "Content/images/camp-banner-owner.xnb",
+  "size": 107585
+ },
+ {
+  "url": "Content/images/farm.xnb",
+  "size": 762389
+ },
+ {
+  "url": "Content/images/sawmill.xnb",
+  "size": 762389
+ },
+ {
+  "url": "Content/images/quarry.xnb",
+  "size": 762389
+ },
+ {
+  "url": "Content/images/goldmine.xnb",
+  "size": 762389
+ },
+ {
+  "url": "Content/images/recruitment-camps/KnightRecruitmentcamp.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/recruitment-camps/PawnRecruitmentcamp.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/recruitment-camps/cathedralRecruitmentcamp.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/overworld-camps/tavern.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/chess-hero.xnb",
+  "size": 104189
+ },
+ {
+  "url": "Content/images/herobanner/army.xnb",
+  "size": 419605
+ },
+ {
+  "url": "Content/images/herobanner/banner.xnb",
+  "size": 313621
+ },
+ {
+  "url": "Content/images/herobanner/army-cover.xnb",
+  "size": 129541
+ },
+ {
+  "url": "Content/images/mix-resource.xnb",
+  "size": 61093
+ },
+ {
+  "url": "Content/images/items/wayfarersboots.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/items/mastermasonspickaxe.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/abandon-wagon.xnb",
+  "size": 61093
+ },
+ {
+  "url": "Content/images/overworld-camps/OldTraveler.xnb",
+  "size": 1415785
+ },
+ {
+  "url": "Content/images/overworld-camps/challenger.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/overworld-camps/Inn-notext.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/overworld-camps/Historian.xnb",
+  "size": 1858645
+ },
+ {
+  "url": "Content/images/overworld-camps/treasurehunter.xnb",
+  "size": 1295125
+ },
+ {
+  "url": "Content/images/overworld-camps/prospector.xnb",
+  "size": 859105
+ },
+ {
+  "url": "Content/images/overworld-camps/informant.xnb",
+  "size": 926805
+ },
+ {
+  "url": "Content/images/recruitment-camps/horse-animation.xnb",
+  "size": 65365
+ },
+ {
+  "url": "Content/images/recruitment-camps/hay-htrown.xnb",
+  "size": 36265
+ },
+ {
+  "url": "Content/images/town-flags-owner.xnb",
+  "size": 28757
+ },
+ {
+  "url": "Content/images/recruitment-camps/cathedral-flag.xnb",
+  "size": 38101
+ },
+ {
+  "url": "Content/images/overworld-camps/coin.xnb",
+  "size": 613
+ },
+ {
+  "url": "Content/images/recruitment-camps/pawn-camp-soldier.xnb",
+  "size": 2901
+ },
+ {
+  "url": "Content/images/overworld-camps/outpost-tower-flag.xnb",
+  "size": 16085
+ },
+ {
+  "url": "Content/images/overworld-camps/challenger-arm-animation.xnb",
+  "size": 181669
+ },
+ {
+  "url": "Content/images/overworld-camps/challenger-flag-animation.xnb",
+  "size": 220021
+ },
+ {
+  "url": "Content/images/overworld-camps/hoarder-animation.xnb",
+  "size": 55381
+ },
+ {
+  "url": "Content/images/overworld-camps/hoarder-flag.xnb",
+  "size": 48365
+ },
+ {
+  "url": "Content/images/overworld-camps/flag-marketplace.xnb",
+  "size": 13525
+ },
+ {
+  "url": "Content/images/overworld-camps/hanging-flag-marketplace.xnb",
+  "size": 14485
+ },
+ {
+  "url": "Content/images/overworld-camps/marketplace-object-front.xnb",
+  "size": 1557
+ },
+ {
+  "url": "Content/images/water-falling-sawmill.xnb",
+  "size": 138197
+ },
+ {
+  "url": "Content/images/sawmill-log.xnb",
+  "size": 82421
+ },
+ {
+  "url": "Content/images/sawmill-log-fallen.xnb",
+  "size": 42085
+ },
+ {
+  "url": "Content/images/sawmill-front.xnb",
+  "size": 298901
+ },
+ {
+  "url": "Content/images/gold-mine-cart.xnb",
+  "size": 17641
+ },
+ {
+  "url": "Content/images/goldmine-nugget.xnb",
+  "size": 1885
+ },
+ {
+  "url": "Content/images/goldmine-entrance.xnb",
+  "size": 159701
+ },
+ {
+  "url": "Content/images/quarry-lifted-stone-animation.xnb",
+  "size": 121045
+ },
+ {
+  "url": "Content/images/quarry-stone-animation.xnb",
+  "size": 355285
+ },
+ {
+  "url": "Content/images/quarry-cart.xnb",
+  "size": 18733
+ },
+ {
+  "url": "Content/images/quarry-cart-cover.xnb",
+  "size": 4685
+ },
+ {
+  "url": "Content/images/farm-animation.xnb",
+  "size": 372493
+ },
+ {
+  "url": "Content/images/heroportait/chess/Isabella Trastamara.xnb",
+  "size": 270485
+ },
+ {
+  "url": "Content/images/hourglass.xnb",
+  "size": 64085
+ },
+ {
+  "url": "Content/images/Battle/chess-defeat.xnb",
+  "size": 250
+ },
+ {
+  "url": "Content/images/chess-tombstone.xnb",
+  "size": 347701
+ },
+ {
+  "url": "Content/images/overworld-camps/marketplace.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/heroportait/chess/Joan Arc.xnb",
+  "size": 270485
+ },
+ {
+  "url": "Content/images/items/pathfindersboots.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/items/lumberjacksaxe.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/items/royaltelescope.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/items/farmersbasket.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/overworld-camps/blacksmith.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/overworld-camps/Hoarder.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/heroportait/chess/Hildegard Bingen.xnb",
+  "size": 270485
+ },
+ {
+  "url": "Content/images/overworld-camps/outpost-tower-body.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/overworld-camps/outpost-tower-body-lit.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/overworld-camps/outpost-tower-owner.xnb",
+  "size": 547885
+ },
+ {
+  "url": "Content/images/items/huntersboots.xnb",
+  "size": 180985
+ },
+ {
+  "url": "Content/images/heroportait/chess/Richard Lionheart.xnb",
+  "size": 270485
+ },
+ {
+  "url": "Content/images/Battle/Draw.xnb",
+  "size": 242
+ },
+ {
+  "url": "Content/images/Battle/chess-victory.xnb",
+  "size": 251
+ }
+]
