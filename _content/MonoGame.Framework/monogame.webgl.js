@@ -323,6 +323,9 @@ for (let i = 1; i <= 24; i++) KEYS['F' + i] = 111 + i;
 // Keys the browser keeps: reload, devtools, browser fullscreen.
 const BROWSER_KEYS = new Set(['F5', 'F11', 'F12']);
 
+// MouseEvent.button (0 left, 1 middle, 2 right, 3 back, 4 forward) as MouseEvent.buttons bits.
+const BUTTON_BITS = [1, 4, 2, 8, 16];
+
 function toCanvas(e) {
     const r = canvas.getBoundingClientRect();
     mouse.x = Math.floor((e.clientX - r.left) * canvas.width / Math.max(1, r.width));
@@ -332,7 +335,10 @@ function toCanvas(e) {
 function hookInput() {
     canvas.tabIndex = 0;
     canvas.addEventListener('contextmenu', e => e.preventDefault());
-    canvas.addEventListener('mousedown', e => { canvas.focus(); toCanvas(e); mouse.buttons = e.buttons; latchedButtons |= e.buttons; e.preventDefault(); });
+    // The press is latched from e.button (which button went down), not only e.buttons (which are held):
+    // iOS Safari sends its emulated mousedown with buttons = 0, so a press read from e.buttons alone
+    // never existed — the pointer moved and nothing ever clicked.
+    canvas.addEventListener('mousedown', e => { canvas.focus(); toCanvas(e); mouse.buttons = e.buttons; latchedButtons |= e.buttons | (BUTTON_BITS[e.button] ?? 0); e.preventDefault(); });
     window.addEventListener('mouseup', e => { toCanvas(e); mouse.buttons = e.buttons; });
     window.addEventListener('mousemove', e => { toCanvas(e); mouse.buttons = e.buttons; });
     // Touch and pen (see `touch`). preventDefault on pointerdown also stops the browser's emulated mouse
