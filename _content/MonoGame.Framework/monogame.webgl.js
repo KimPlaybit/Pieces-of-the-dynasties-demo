@@ -299,7 +299,15 @@ const latchedKeys = new Set();
 // press see the hover first), then pressed for as long as it is held — at least one poll — then released.
 // Not the browser's emulated mouse events: iOS Safari (and some Android browsers) send those with
 // buttons = 0, so a tap never registered as a press at all.
-const touch = { state: 'none', held: false }; // state: none | arriving | pressed
+const touch = { state: 'none', held: false, at: -1e9 }; // state: none | arriving | pressed; at = last finger event
+// The mouse events a browser emulates for a tap, which arrive right after it. Chrome drops them once the
+// pointerdown is cancelled; iOS Safari sends them anyway (mousedown/mouseup with buttons = 0), and since
+// mousedown latches from e.button that made every tap two clicks — a map tile previewed AND marched to,
+// a portrait double-clicked. A real mouse is never used within a second of a finger, so mouse events in
+// that window are the tap's echo and ignored.
+const TOUCH_ECHO_MS = 1000;
+const isTouchEcho = () => touch.held || performance.now() - touch.at < TOUCH_ECHO_MS;
+const inputStats = window.monogameInputStats = { leftPresses: 0, lastButtons: 0 };
 let textQueue = [];
 
 // KeyboardEvent.code -> Microsoft.Xna.Framework.Input.Keys
@@ -338,9 +346,9 @@ function hookInput() {
     // The press is latched from e.button (which button went down), not only e.buttons (which are held):
     // iOS Safari sends its emulated mousedown with buttons = 0, so a press read from e.buttons alone
     // never existed — the pointer moved and nothing ever clicked.
-    canvas.addEventListener('mousedown', e => { canvas.focus(); toCanvas(e); mouse.buttons = e.buttons; latchedButtons |= e.buttons | (BUTTON_BITS[e.button] ?? 0); e.preventDefault(); });
-    window.addEventListener('mouseup', e => { toCanvas(e); mouse.buttons = e.buttons; });
-    window.addEventListener('mousemove', e => { toCanvas(e); mouse.buttons = e.buttons; });
+    canvas.addEventListener('mousedown', e => { if (isTouchEcho()) { e.preventDefault(); return; } canvas.focus(); toCanvas(e); mouse.buttons = e.buttons; latchedButtons |= e.buttons | (BUTTON_BITS[e.button] ?? 0); e.preventDefault(); });
+    window.addEventListener('mouseup', e => { if (isTouchEcho()) return; toCanvas(e); mouse.buttons = e.buttons; });
+    window.addEventListener('mousemove', e => { if (isTouchEcho()) return; toCanvas(e); mouse.buttons = e.buttons; });
     // Touch and pen (see `touch`). preventDefault on pointerdown also stops the browser's emulated mouse
     // events for the tap, so a tap never counts twice; the canvas's CSS touch-action: none keeps the page
     // from scrolling or zooming under the finger.
@@ -348,10 +356,10 @@ function hookInput() {
         if (e.pointerType === 'mouse') return;
         canvas.focus(); toCanvas(e); e.preventDefault();
         try { canvas.setPointerCapture(e.pointerId); } catch { }
-        touch.state = 'arriving'; touch.held = true;
+        touch.state = 'arriving'; touch.held = true; touch.at = performance.now();
     });
     canvas.addEventListener('pointermove', e => { if (e.pointerType !== 'mouse') toCanvas(e); });
-    const touchUp = e => { if (e.pointerType === 'mouse') return; toCanvas(e); touch.held = false; };
+    const touchUp = e => { if (e.pointerType === 'mouse') return; toCanvas(e); touch.held = false; touch.at = performance.now(); };
     canvas.addEventListener('pointerup', touchUp);
     canvas.addEventListener('pointercancel', touchUp);
     canvas.addEventListener('wheel', e => {
@@ -387,6 +395,10 @@ export function pollMouse() {
     else if (touch.state === 'pressed') { touchButton = 1; if (!touch.held) touch.state = 'none'; }
     const buttons = mouse.buttons | latchedButtons | touchButton;
     latchedButtons = 0;
+    // Left-button presses exactly as the game sees them (released -> pressed between two polls): one
+    // per click or tap, which is what this counts so a test can check it.
+    if ((buttons & 1) && !(inputStats.lastButtons & 1)) inputStats.leftPresses++;
+    inputStats.lastButtons = buttons;
     return [mouse.x, mouse.y, buttons, mouse.wheel, mouse.hwheel];
 }
 export function pollKeys() {
