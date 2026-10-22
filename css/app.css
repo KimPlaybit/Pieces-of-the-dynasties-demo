@@ -1,7 +1,11 @@
 html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
 #app { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; }
-/* The drawing buffer is the game's back buffer; CSS letterboxes it into the viewport. */
-#canvas { max-width: 100vw; max-height: 100vh; outline: none; display: block; }
+/* The drawing buffer is the game's back buffer; CSS scales it, up or down, to the largest size of
+   its own shape that fits the viewport (height follows the canvas's intrinsic ratio). --ar is the
+   buffer's width/height, kept current by monogame.webgl.js setCanvasSize. */
+#canvas { width: min(100vw, calc(100vh * var(--ar, 1.7778))); height: auto; outline: none; display: block; }
+/* Touch: the game gets every finger (no page scroll/zoom, no long-press menu or text selection). */
+#canvas { touch-action: none; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
 
 #loading {
     position: fixed; inset: 0; z-index: 10;

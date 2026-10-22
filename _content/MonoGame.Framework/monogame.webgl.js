@@ -134,6 +134,8 @@ export function startLoop(callback) {
 export function setCanvasSize(width, height) {
     if (canvas.width !== width) canvas.width = width;
     if (canvas.height !== height) canvas.height = height;
+    // The page's CSS sizes the canvas from this (see the host's #canvas rule).
+    canvas.style.setProperty('--ar', String(width / height));
 }
 export function getCanvasClientWidth() { return Math.round(canvas.clientWidth * (window.devicePixelRatio || 1)); }
 export function getCanvasClientHeight() { return Math.round(canvas.clientHeight * (window.devicePixelRatio || 1)); }
@@ -292,6 +294,12 @@ const keysDown = new Set();
 // down and up between two snapshots and never be seen. Held for one poll, released on the next.
 let latchedButtons = 0;
 const latchedKeys = new Set();
+// A finger (or pen) is a left button. It cannot hover, so a tap is played to the game over polls the way
+// a mouse would do it: one poll with the pointer arriving unpressed (buttons that act only on a hovered
+// press see the hover first), then pressed for as long as it is held — at least one poll — then released.
+// Not the browser's emulated mouse events: iOS Safari (and some Android browsers) send those with
+// buttons = 0, so a tap never registered as a press at all.
+const touch = { state: 'none', held: false }; // state: none | arriving | pressed
 let textQueue = [];
 
 // KeyboardEvent.code -> Microsoft.Xna.Framework.Input.Keys
@@ -327,6 +335,19 @@ function hookInput() {
     canvas.addEventListener('mousedown', e => { canvas.focus(); toCanvas(e); mouse.buttons = e.buttons; latchedButtons |= e.buttons; e.preventDefault(); });
     window.addEventListener('mouseup', e => { toCanvas(e); mouse.buttons = e.buttons; });
     window.addEventListener('mousemove', e => { toCanvas(e); mouse.buttons = e.buttons; });
+    // Touch and pen (see `touch`). preventDefault on pointerdown also stops the browser's emulated mouse
+    // events for the tap, so a tap never counts twice; the canvas's CSS touch-action: none keeps the page
+    // from scrolling or zooming under the finger.
+    canvas.addEventListener('pointerdown', e => {
+        if (e.pointerType === 'mouse') return;
+        canvas.focus(); toCanvas(e); e.preventDefault();
+        try { canvas.setPointerCapture(e.pointerId); } catch { }
+        touch.state = 'arriving'; touch.held = true;
+    });
+    canvas.addEventListener('pointermove', e => { if (e.pointerType !== 'mouse') toCanvas(e); });
+    const touchUp = e => { if (e.pointerType === 'mouse') return; toCanvas(e); touch.held = false; };
+    canvas.addEventListener('pointerup', touchUp);
+    canvas.addEventListener('pointercancel', touchUp);
     canvas.addEventListener('wheel', e => {
         // XNA: +120 per notch, positive = away from the user. DOM: positive deltaY = towards the user.
         const scale = e.deltaMode === 1 ? 40 : e.deltaMode === 2 ? 800 : 1;
@@ -350,12 +371,15 @@ function hookInput() {
         if (!BROWSER_KEYS.has(e.code)) e.preventDefault();
     });
     // A key released while the tab was away would otherwise stay down forever.
-    window.addEventListener('blur', () => { keysDown.clear(); latchedKeys.clear(); mouse.buttons = 0; latchedButtons = 0; });
+    window.addEventListener('blur', () => { keysDown.clear(); latchedKeys.clear(); mouse.buttons = 0; latchedButtons = 0; touch.state = 'none'; touch.held = false; });
 }
 
 // [x, y, buttons, wheel, hwheel]
 export function pollMouse() {
-    const buttons = mouse.buttons | latchedButtons;
+    let touchButton = 0;
+    if (touch.state === 'arriving') touch.state = 'pressed';
+    else if (touch.state === 'pressed') { touchButton = 1; if (!touch.held) touch.state = 'none'; }
+    const buttons = mouse.buttons | latchedButtons | touchButton;
     latchedButtons = 0;
     return [mouse.x, mouse.y, buttons, mouse.wheel, mouse.hwheel];
 }
