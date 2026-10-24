@@ -1,34 +1,34 @@
 [
  {
-  "url": "Content/images/pawn-body.xnb",
+  "url": "Content/images/pawn-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/knight-body.xnb",
+  "url": "Content/images/knight-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/bishop-body.xnb",
+  "url": "Content/images/bishop-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/rook-body.xnb",
+  "url": "Content/images/rook-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/queen-body.xnb",
+  "url": "Content/images/queen-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/king-body.xnb",
+  "url": "Content/images/king-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/cannon-line.xnb",
+  "url": "Content/images/cannon-deco.xnb",
   "missing": true
  },
  {
-  "url": "Content/images/minister-line.xnb",
+  "url": "Content/images/minister-deco.xnb",
   "missing": true
  },
  {
@@ -237,7 +237,7 @@
  },
  {
   "url": "Content/images/king.xnb",
-  "size": 104189
+  "size": 42121
  },
  {
   "url": "Content/images/loadgame/Savepanel-notext.xnb",

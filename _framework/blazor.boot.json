@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PiecesOfTheDynasties.Web",
   "resources": {
-    "hash": "sha256-fztYhAPyDZuXDBVa9FKJ4VUpFwR7HEXJheemam8h9+8=",
+    "hash": "sha256-lDGUPzD2OJllIUyM0Dfo8vCQhg8p/t5tNbFs4yadeuM=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.hhoz8x78qi.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.xfl55a4ypw.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -57,7 +57,7 @@
       "System.Text.Encoding.Extensions.29sely9cue.wasm": "System.Text.Encoding.Extensions.wasm",
       "System.Text.Encodings.Web.bm61lg4784.wasm": "System.Text.Encodings.Web.wasm",
       "System.Text.Json.j3carvptk7.wasm": "System.Text.Json.wasm",
-      "System.Text.RegularExpressions.90q0uei0ue.wasm": "System.Text.RegularExpressions.wasm",
+      "System.Text.RegularExpressions.cizocvfrrt.wasm": "System.Text.RegularExpressions.wasm",
       "System.Threading.Thread.y5j11pfsam.wasm": "System.Threading.Thread.wasm",
       "System.Threading.bweqsg732z.wasm": "System.Threading.wasm",
       "System.Xml.Linq.0bas1zyrs9.wasm": "System.Xml.Linq.wasm",
@@ -65,10 +65,10 @@
       "System.Xml.XDocument.r885ps5hvk.wasm": "System.Xml.XDocument.wasm",
       "System.ke1disal2r.wasm": "System.wasm",
       "System.Private.CoreLib.p05zko6zia.wasm": "System.Private.CoreLib.wasm",
-      "MonoGame.Framework.zi5jq12im8.wasm": "MonoGame.Framework.wasm",
-      "PiecesOfTheDynasties.Web.cg902n6p4w.wasm": "PiecesOfTheDynasties.Web.wasm",
+      "MonoGame.Framework.pchvhb9n7u.wasm": "MonoGame.Framework.wasm",
+      "PiecesOfTheDynasties.Web.4ay1wy5ssz.wasm": "PiecesOfTheDynasties.Web.wasm",
       "dotnet.native.tvugt4h7lb.js": "dotnet.native.js",
-      "dotnet.native.69u67ihab5.wasm": "dotnet.native.wasm",
+      "dotnet.native.q49ouo22ph.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.pu7sbjsy59.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -82,7 +82,7 @@
       "dotnet.runtime.pu7sbjsy59.js": "sha256-wW0L1H42TfMatybe1vKm/k57XP7qqXWX5r7AbCRx5JQ="
     },
     "wasmNative": {
-      "dotnet.native.69u67ihab5.wasm": "sha256-ql11Jco6uZ1wqOXAoCP+fTnawhoHwIKuEkfcWlkL7DM="
+      "dotnet.native.q49ouo22ph.wasm": "sha256-OiK5Kp8KePNaurJNdTgrFxe8nNjja70Uwn3M8FbllSI="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -144,7 +144,7 @@
       "System.Text.Encoding.Extensions.29sely9cue.wasm": "sha256-euxIXNqyP8POtzlxRzMqwgRa3cfrDkrRAL/JANMfaL4=",
       "System.Text.Encodings.Web.bm61lg4784.wasm": "sha256-w0ydGxhTNTkRHd57KIm4xHyREVt+fcnCpL7kb4TQV4s=",
       "System.Text.Json.j3carvptk7.wasm": "sha256-Qf1EkqCoxN+bvCJ8hpWV4n1O44V/a84dYfk50sb8qA4=",
-      "System.Text.RegularExpressions.90q0uei0ue.wasm": "sha256-qXm7p3V9MRlFIh2CNMQOIkzKyFsDDQ+I41cT2FNctFQ=",
+      "System.Text.RegularExpressions.cizocvfrrt.wasm": "sha256-PB6vrzUu3/yvSAnCjTbMRfZ07oEXGDkn2WaPuGgzjm8=",
       "System.Threading.Thread.y5j11pfsam.wasm": "sha256-Rqwn7CTryRwQiCpI4JFQV1oPFZ0GhjAtW6QdCVR0T0k=",
       "System.Threading.bweqsg732z.wasm": "sha256-FSZzD4eZpxXVMj/JS1JYexxaLb0cQwMRubAgWZ/YEIk=",
       "System.Xml.Linq.0bas1zyrs9.wasm": "sha256-1O88vKRNexWQf13RsmyB94WQ3rDSgSoAIWh4MV43U/s=",
@@ -152,8 +152,8 @@
       "System.Xml.XDocument.r885ps5hvk.wasm": "sha256-BQ7l5aceDBzohWAJoXXsUatW0QO0QdfFtVLs8nJESf0=",
       "System.ke1disal2r.wasm": "sha256-pJVfOQBBtR7pVRj/hsDjW2tSJr3eMSs6yVHVGbiVf2s=",
       "System.Private.CoreLib.p05zko6zia.wasm": "sha256-KRgg5XghLUF42xkHmMSlu/peE5woT9I7AngUC6m8YnY=",
-      "MonoGame.Framework.zi5jq12im8.wasm": "sha256-u0DHfmMR24QPNwCmd6VwyaH3VCLN6041B2rNpQO2iCs=",
-      "PiecesOfTheDynasties.Web.cg902n6p4w.wasm": "sha256-JDJ19Mq8rOyg2Y+JSO7Zw4xzanLJ7viD/jsPuVcuc7I="
+      "MonoGame.Framework.pchvhb9n7u.wasm": "sha256-mXbdS8WB5xQPgMnbQD45wkICVm/6FGUT/GduWSEXBPI=",
+      "PiecesOfTheDynasties.Web.4ay1wy5ssz.wasm": "sha256-zJsxFh+p82dvNK3rY94YK/wJXtenf400Yk29gPVTjxY="
     },
     "assembly": {}
   },

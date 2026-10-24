@@ -175,72 +175,128 @@
   "reads": 2
  },
  {
-  "url": "Content/images/pawn.xnb",
-  "size": 57861
+  "url": "Content/images/pawn-body.xnb",
+  "size": 28225
  },
  {
-  "url": "Content/images/knight.xnb",
-  "size": 99585
+  "url": "Content/images/pawn-line.xnb",
+  "size": 28225
  },
  {
-  "url": "Content/images/bishop.xnb",
-  "size": 54965
+  "url": "Content/images/knight-body.xnb",
+  "size": 34133
  },
  {
-  "url": "Content/images/rook.xnb",
-  "size": 85925
+  "url": "Content/images/knight-line.xnb",
+  "size": 34133
  },
  {
-  "url": "Content/images/queen.xnb",
-  "size": 54205
+  "url": "Content/images/bishop-body.xnb",
+  "size": 35477
+ },
+ {
+  "url": "Content/images/bishop-line.xnb",
+  "size": 35477
+ },
+ {
+  "url": "Content/images/rook-body.xnb",
+  "size": 34581
+ },
+ {
+  "url": "Content/images/rook-line.xnb",
+  "size": 34581
+ },
+ {
+  "url": "Content/images/queen-body.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/queen-line.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/king-body.xnb",
+  "size": 42121
+ },
+ {
+  "url": "Content/images/king-line.xnb",
+  "size": 42121
  },
  {
   "url": "Content/images/soldier-body.xnb",
-  "size": 40921
+  "size": 31037
  },
  {
   "url": "Content/images/soldier-line.xnb",
-  "size": 40921
+  "size": 31037
+ },
+ {
+  "url": "Content/images/soldier-deco.xnb",
+  "size": 31037
  },
  {
   "url": "Content/images/horse-body.xnb",
-  "size": 67733
+  "size": 39301
  },
  {
   "url": "Content/images/horse-line.xnb",
-  "size": 67733
+  "size": 39301
+ },
+ {
+  "url": "Content/images/horse-deco.xnb",
+  "size": 39301
  },
  {
   "url": "Content/images/chariot-body.xnb",
-  "size": 71653
+  "size": 45229
  },
  {
   "url": "Content/images/chariot-line.xnb",
-  "size": 71653
+  "size": 45229
+ },
+ {
+  "url": "Content/images/chariot-deco.xnb",
+  "size": 45229
  },
  {
   "url": "Content/images/cannon-body.xnb",
-  "size": 62581
+  "size": 46285
+ },
+ {
+  "url": "Content/images/cannon-line.xnb",
+  "size": 46285
  },
  {
   "url": "Content/images/advisor-body.xnb",
-  "size": 63085
+  "size": 45373
  },
  {
   "url": "Content/images/advisor-line.xnb",
-  "size": 63085
+  "size": 45373
+ },
+ {
+  "url": "Content/images/advisor-deco.xnb",
+  "size": 45373
  },
  {
   "url": "Content/images/minister-body.xnb",
-  "size": 70069
+  "size": 33685
+ },
+ {
+  "url": "Content/images/minister-line.xnb",
+  "size": 33685
  },
  {
   "url": "Content/images/general-body.xnb",
-  "size": 73013
+  "size": 34833
  },
  {
   "url": "Content/images/general-line.xnb",
-  "size": 73013
+  "size": 34833
+ },
+ {
+  "url": "Content/images/general-deco.xnb",
+  "size": 34833
  },
  {
   "url": "Content/images/board-square.xnb",
@@ -419,28 +475,92 @@
   "size": 6290149
  },
  {
+  "url": "Content/images/board/tiles-light.xnb",
+  "size": 1267285
+ },
+ {
+  "url": "Content/images/board/tiles-dark.xnb",
+  "size": 1324885
+ },
+ {
+  "url": "Content/images/board/frame.xnb",
+  "size": 6269777
+ },
+ {
+  "url": "Content/images/board/river.xnb",
+  "size": 334165
+ },
+ {
   "url": "Content/images/Battle/ChessBattle.xnb",
-  "size": 6292261
+  "size": 6291013
  },
  {
   "url": "Content/images/Battle/ChessBattle_Top.xnb",
-  "size": 3146173
+  "size": 3145549
  },
  {
   "url": "Content/images/Battle/ChessBattle_Bottom.xnb",
-  "size": 3146173
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Foreground.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_OwnerNear.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_OwnerFar.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Top_Owner.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Bottom_Owner.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Foreground_Owner.xnb",
+  "size": 6291013
  },
  {
   "url": "Content/images/Battle/XiangqiBattle.xnb",
-  "size": 6292261
+  "size": 6293493
  },
  {
   "url": "Content/images/Battle/XiangqiBattle_Top.xnb",
-  "size": 3146173
+  "size": 3143445
  },
  {
   "url": "Content/images/Battle/XiangqiBattle_Bottom.xnb",
-  "size": 3146173
+  "size": 3150133
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_Foreground.xnb",
+  "size": 6293493
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_OwnerNear.xnb",
+  "size": 6293493
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_OwnerFar.xnb",
+  "size": 6293493
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_Top_Owner.xnb",
+  "size": 3143445
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_Bottom_Owner.xnb",
+  "size": 3150133
+ },
+ {
+  "url": "Content/images/Battle/XiangqiBattle_Foreground_Owner.xnb",
+  "size": 6293493
  },
  {
   "url": "Content/images/battle-summary/border.xnb",
@@ -448,6 +568,10 @@
  },
  {
   "url": "Content/images/button-greyed.xnb",
+  "size": 529321
+ },
+ {
+  "url": "Content/images/button-greyed-fill.xnb",
   "size": 529321
  },
  {
@@ -743,32 +867,52 @@
   "size": 3491173
  },
  {
+  "url": "Content/images/pawn.xnb",
+  "size": 28225
+ },
+ {
+  "url": "Content/images/knight.xnb",
+  "size": 34133
+ },
+ {
+  "url": "Content/images/bishop.xnb",
+  "size": 35477
+ },
+ {
+  "url": "Content/images/rook.xnb",
+  "size": 34581
+ },
+ {
+  "url": "Content/images/queen.xnb",
+  "size": 45229
+ },
+ {
   "url": "Content/images/soldier.xnb",
-  "size": 40921
+  "size": 31037
  },
  {
   "url": "Content/images/horse.xnb",
-  "size": 67733
+  "size": 39301
  },
  {
   "url": "Content/images/advisor.xnb",
-  "size": 63085
+  "size": 45373
  },
  {
   "url": "Content/images/minister.xnb",
-  "size": 70069
+  "size": 33685
  },
  {
   "url": "Content/images/chariot.xnb",
-  "size": 71653
+  "size": 45229
  },
  {
   "url": "Content/images/cannon.xnb",
-  "size": 62581
+  "size": 46285
  },
  {
   "url": "Content/images/general.xnb",
-  "size": 73013
+  "size": 34833
  },
  {
   "url": "Content/images/recruitmentboard/board.xnb",
