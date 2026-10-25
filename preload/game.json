@@ -1187,10 +1187,6 @@
   "size": 64085
  },
  {
-  "url": "Content/images/Battle/chess-defeat.xnb",
-  "size": 250
- },
- {
   "url": "Content/images/chess-tombstone.xnb",
   "size": 347701
  },
@@ -1251,11 +1247,15 @@
   "size": 270485
  },
  {
-  "url": "Content/images/Battle/Draw.xnb",
-  "size": 242
+  "url": "Content/images/Battle/result-victory.xnb",
+  "size": 1769557
  },
  {
-  "url": "Content/images/Battle/chess-victory.xnb",
-  "size": 251
+  "url": "Content/images/Battle/result-defeat.xnb",
+  "size": 1572949
+ },
+ {
+  "url": "Content/images/Battle/result-draw.xnb",
+  "size": 1769557
  }
 ]

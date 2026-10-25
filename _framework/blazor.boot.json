@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PiecesOfTheDynasties.Web",
   "resources": {
-    "hash": "sha256-lDGUPzD2OJllIUyM0Dfo8vCQhg8p/t5tNbFs4yadeuM=",
+    "hash": "sha256-d1xJev+p8xvNP04POL6xCnkNUQe0hx9FyH7zQDaL/i4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.hhoz8x78qi.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.xfl55a4ypw.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -65,10 +65,10 @@
       "System.Xml.XDocument.r885ps5hvk.wasm": "System.Xml.XDocument.wasm",
       "System.ke1disal2r.wasm": "System.wasm",
       "System.Private.CoreLib.p05zko6zia.wasm": "System.Private.CoreLib.wasm",
-      "MonoGame.Framework.pchvhb9n7u.wasm": "MonoGame.Framework.wasm",
-      "PiecesOfTheDynasties.Web.4ay1wy5ssz.wasm": "PiecesOfTheDynasties.Web.wasm",
+      "MonoGame.Framework.aw6ji7cl36.wasm": "MonoGame.Framework.wasm",
+      "PiecesOfTheDynasties.Web.07d0qp3v1e.wasm": "PiecesOfTheDynasties.Web.wasm",
       "dotnet.native.tvugt4h7lb.js": "dotnet.native.js",
-      "dotnet.native.q49ouo22ph.wasm": "dotnet.native.wasm",
+      "dotnet.native.z713npgmhh.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.pu7sbjsy59.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -82,7 +82,7 @@
       "dotnet.runtime.pu7sbjsy59.js": "sha256-wW0L1H42TfMatybe1vKm/k57XP7qqXWX5r7AbCRx5JQ="
     },
     "wasmNative": {
-      "dotnet.native.q49ouo22ph.wasm": "sha256-OiK5Kp8KePNaurJNdTgrFxe8nNjja70Uwn3M8FbllSI="
+      "dotnet.native.z713npgmhh.wasm": "sha256-7yP5S8S5wJgFQ89oKhKv5Pq8aJp0Nt/biqfkBDsDu88="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -152,8 +152,8 @@
       "System.Xml.XDocument.r885ps5hvk.wasm": "sha256-BQ7l5aceDBzohWAJoXXsUatW0QO0QdfFtVLs8nJESf0=",
       "System.ke1disal2r.wasm": "sha256-pJVfOQBBtR7pVRj/hsDjW2tSJr3eMSs6yVHVGbiVf2s=",
       "System.Private.CoreLib.p05zko6zia.wasm": "sha256-KRgg5XghLUF42xkHmMSlu/peE5woT9I7AngUC6m8YnY=",
-      "MonoGame.Framework.pchvhb9n7u.wasm": "sha256-mXbdS8WB5xQPgMnbQD45wkICVm/6FGUT/GduWSEXBPI=",
-      "PiecesOfTheDynasties.Web.4ay1wy5ssz.wasm": "sha256-zJsxFh+p82dvNK3rY94YK/wJXtenf400Yk29gPVTjxY="
+      "MonoGame.Framework.aw6ji7cl36.wasm": "sha256-Voj/WG6r6pmQn29/QWBEJ/2prfEcMdG8P6L8eFsbjcI=",
+      "PiecesOfTheDynasties.Web.07d0qp3v1e.wasm": "sha256-NG+LeRFxwkSGqh1d7PMORHoZrvw5a/dqM0/p/ypDcLk="
     },
     "assembly": {}
   },
