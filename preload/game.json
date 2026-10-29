@@ -563,6 +563,18 @@
   "size": 6293493
  },
  {
+  "url": "Content/images/Battle/result-victory.xnb",
+  "size": 1769557
+ },
+ {
+  "url": "Content/images/Battle/result-defeat.xnb",
+  "size": 1572949
+ },
+ {
+  "url": "Content/images/Battle/result-draw.xnb",
+  "size": 1769557
+ },
+ {
   "url": "Content/images/battle-summary/border.xnb",
   "size": 2633813
  },
@@ -703,6 +715,54 @@
   "size": 100101
  },
  {
+  "url": "Content/images/city/barracks-traininggrounds-built.xnb",
+  "size": 288065
+ },
+ {
+  "url": "Content/images/city/barracks-traininggrounds-built-owner.xnb",
+  "size": 288065
+ },
+ {
+  "url": "Content/images/city/barracks-guardtower-built.xnb",
+  "size": 288065
+ },
+ {
+  "url": "Content/images/city/barracks-guardtower-built-owner.xnb",
+  "size": 288065
+ },
+ {
+  "url": "Content/images/city/stable-shed-built.xnb",
+  "size": 393157
+ },
+ {
+  "url": "Content/images/city/stable-shed-built-owner.xnb",
+  "size": 393157
+ },
+ {
+  "url": "Content/images/city/cathedral-chapel-built.xnb",
+  "size": 332665
+ },
+ {
+  "url": "Content/images/city/cathedral-chapel-built-owner.xnb",
+  "size": 332665
+ },
+ {
+  "url": "Content/images/city/fortress-stronghold-built.xnb",
+  "size": 269533
+ },
+ {
+  "url": "Content/images/city/fortress-stronghold-built-owner.xnb",
+  "size": 269533
+ },
+ {
+  "url": "Content/images/city/royalcourt-palace-built.xnb",
+  "size": 773365
+ },
+ {
+  "url": "Content/images/city/royalcourt-palace-built-owner.xnb",
+  "size": 773365
+ },
+ {
   "url": "Content/images/city/extra-house.xnb",
   "size": 85309
  },
@@ -833,6 +893,10 @@
  {
   "url": "Content/images/city/hanging-flag-animation-owner.xnb",
   "size": 27221
+ },
+ {
+  "url": "Content/images/city/horse-single-animation.xnb",
+  "size": 57493
  },
  {
   "url": "Content/images/city/granary-grain-move-1.xnb",
@@ -1245,17 +1309,5 @@
  {
   "url": "Content/images/heroportait/chess/Richard Lionheart.xnb",
   "size": 270485
- },
- {
-  "url": "Content/images/Battle/result-victory.xnb",
-  "size": 1769557
- },
- {
-  "url": "Content/images/Battle/result-defeat.xnb",
-  "size": 1572949
- },
- {
-  "url": "Content/images/Battle/result-draw.xnb",
-  "size": 1769557
  }
 ]
